@@ -1,23 +1,89 @@
-# Mein JavaFX Projekt
-Diese Projekt wurde mit dem Maven Archetype "hftm-archetype-javafx-basic" erstellt.
+# Kleine Desktop-Toolbox-Anwendung
 
-Bevor du die Maven-Befehle unten ausführst, solltest du prüfen, dass im pom.xml das Property project.mainclass korrekt angegeben ist!  
+Diese Projekt wurde im Rahmen des Kurses "Objektorientiertes Programmieren 1" entwickelt. Es bietet eine kompakte Sammlung von nützlichen Desktop-Anwendungen, die im täglichen Gebrauch hilfreich sind.
 
-## Start des Projekts aus Entwicklungsumgebung  
-Du kannst deine MainApp-Klasse direkt über die IDE starten oder folgenden Maven-Befehl ausführen:
+## Inhaltsverzeichnis
 
-    mvn javafx:run
+- [Überblick](#überblick)
+- [Funktionen](#funktionen)
+  - [PassSave](#passsave)
+  - [NoteSave](#notesave)
+  - [Calculator](#calculator)
+  - [Alarm](#alarm)
+- [Technische Details](#technische-details)
+  - [Verwendete Technologien](#verwendete-technologien)
+  - [Projektstruktur](#projektstruktur)
+- [Installation und Ausführung](#installation-und-ausführung)
+- [Zeitplan und Meilensteine](#zeitplan-und-meilensteine)
+- [Beitragende](#beitragende)
+- [Lizenz](#lizenz)
 
-  
-## Erzeugen einer Auslieferung
-Du kannst dein Projekt mit folgendem Befehl in ein auslieferbares Programm packen:  
+## Überblick
 
-    mvn javafx:jlink
+Die Kleine Desktop-Toolbox-Anwendung ist eine JavaFX-basierte Anwendung, die aus vier Hauptmodulen besteht:
+1. PassSave
+2. NoteSave
+3. Calculator
+4. Alarm
 
-Anschliessend befindet sich dein aulieferbares Programm unter ``target/App`` und ein bereits verpacktes ZIP-Archiv unter ``target/AppArchive.zip``. Beide enthalten die gleichen Dateien:
--  Eine passende Java-Auslieferung und alle notwendigen Libraries.
--  Im Verzeichnis ``bin`` findest du ein ausführbares File mit dem Namen ``Start`` (z.B. ``Start.bat``). Damit kannst du dein Programm auf jedem Computer mit dem gleichen Betriebsystem starten.  
+## Funktionen
 
-Beispielhaftes Starten des erzeugten Programms unter Windows:
+### PassSave
 
-    call target\App\bin\Start.bat
+- **Beschreibung:** Speichern und Verwalten von Benutzernamen und Passwörtern.
+- **Merkmale:** Hinzufügen, Bearbeiten und Löschen von Passwörtern.
+
+### NoteSave
+
+- **Beschreibung:** Einfache Notizen machen und als Todo-Liste verwenden.
+- **Merkmale:** Hinzufügen, Anzeigen und Löschen von Notizen.
+
+### Calculator
+
+- **Beschreibung:** Ein einfacher Taschenrechner für grundlegende mathematische Operationen.
+- **Merkmale:** Addition, Subtraktion, Multiplikation und Division.
+
+### Alarm
+
+- **Beschreibung:** Stellen von Alarmen und Timern.
+- **Merkmale:** Alarm setzen, Countdown-Timer, Wiederholungsfunktion.
+
+## Technische Details
+
+### Verwendete Technologien
+
+- **Programmiersprache:** Java SE 21
+- **Framework:** JavaFX
+- **Build-Tool:** Maven
+- **Version Control:** Git
+
+### Projektstruktur
+
+```plaintext
+justtest1/
+├── pom.xml
+├── README.md
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── test1/
+│   │   │       ├── alarmController.java
+│   │   │       ├── calcuController.java
+│   │   │       ├── editPassController.java
+│   │   │       ├── menuController.java
+│   │   │       ├── noteController.java
+│   │   │       ├── passController.java
+│   │   │       ├── settingController.java
+│   │   │       ├── UserPass.java
+│   │   │       └── App.java
+│   │   ├── resources/
+│   │   │   ├── alarm.fxml
+│   │   │   ├── calcu.fxml
+│   │   │   ├── editPass.fxml
+│   │   │   ├── menu.fxml
+│   │   │   ├── note.fxml
+│   │   │   ├── pass.fxml
+│   │   │   ├── setting.fxml
+│   │   │   ├── dark-theme.css
+│   │   │   └── main.css
+│   └── module-info.java
