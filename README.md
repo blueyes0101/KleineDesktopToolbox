@@ -1,6 +1,6 @@
 # Kleine Desktop-Toolbox-Anwendung
 
-Dieses Projekt wurde im Rahmen des Kurses "Objektorientiertes Programmieren 1" entwickelt. Es bietet eine kompakte Sammlung von nützlichen Desktop-Anwendungen, die im täglichen Gebrauch hilfreich sind.
+Diese Projekt wurde im Rahmen des Kurses "Objektorientiertes Programmieren 1" entwickelt. Es bietet eine kompakte Sammlung von nützlichen Desktop-Anwendungen, die im täglichen Gebrauch hilfreich sind.
 
 ## Inhaltsverzeichnis
 
@@ -57,48 +57,21 @@ Die Kleine Desktop-Toolbox-Anwendung ist eine JavaFX-basierte Anwendung, die aus
 - **Build-Tool:** Maven
 - **Version Control:** Git
 
-### Projektstruktur
+### Installation und Ausführung
+Repository klonen:
 
-```plaintext
-justtest1/
-├── pom.xml
-├── README.md
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── test1/
-│   │   │       ├── alarmController.java
-│   │   │       ├── calcuController.java
-│   │   │       ├── editPassController.java
-│   │   │       ├── menuController.java
-│   │   │       ├── noteController.java
-│   │   │       ├── passController.java
-│   │   │       ├── settingController.java
-│   │   │       ├── UserPass.java
-│   │   │       └── App.java
-│   │   ├── resources/
-│   │   │   ├── alarm.fxml
-│   │   │   ├── calcu.fxml
-│   │   │   ├── editPass.fxml
-│   │   │   ├── menu.fxml
-│   │   │   ├── note.fxml
-│   │   │   ├── pass.fxml
-│   │   │   ├── setting.fxml
-│   │   │   ├── dark-theme.css
-│   │   │   └── main.css
-│   └── module-info.java
+git clone https://github.com/blueyes0101/KleineDesktopToolbox
+cd KleineDesktopToolbox
+
+### Abhängigkeiten installieren und Projekt ausführen:
+
+mvn clean install
+mvn javafx:run
 
 
-## Installation und Ausführung
+### Zeitplan und Meilensteine
 
-1. **Repository klonen:**
-   ```bash
-   git clone https://github.com/blueyes0101/KleineDesktopToolbox
-
-
-
-   **Zeitplan und Meilensteine**
-Milestone a: Zeit-Planung (17.05.2024 - 18.05.2024)
+- **Milestone a:**: Zeit-Planung (17.05.2024 - 18.05.2024)
 Beschreibung: Erstellung eines allgemeinen Zeitplans für das Projekt.
 
 Milestone b: Projekt-Setup, Test-Klasse, Git-Setup (19.05.2024 - 21.05.2024)
@@ -121,3 +94,8 @@ Beschreibung: Integration aller Module und Durchführung eines allgemeinen Tests
 
 Milestone h: Dokumentation und Abschluss (10.06.2024 - 11.06.2024)
 Beschreibung: Dokumentation und Einreichung des Projekts.
+
+Beitragende
+Mehmet Ozdag
+Lizenz
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die LICENSE-Datei für weitere Details.
