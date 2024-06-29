@@ -60,8 +60,9 @@ Die Kleine Desktop-Toolbox-Anwendung ist eine JavaFX-basierte Anwendung, die aus
 ### Installation und Ausführung
 Repository klonen:
 
-git clone https://github.com/blueyes0101/KleineDesktopToolbox
-cd KleineDesktopToolbox
+- git clone https://github.com/blueyes0101/KleineDesktopToolbox
+
+- cd KleineDesktopToolbox
 
 ### Abhängigkeiten installieren und Projekt ausführen:
 
