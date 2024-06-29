@@ -96,7 +96,6 @@ Repository klonen:
 - **Milestone h: Dokumentation und Abschluss (10.06.2024 - 11.06.2024)**
 - **Beschreibung:** Dokumentation und Einreichung des Projekts.
 
-Beitragende
-Mehmet Ozdag
-Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die LICENSE-Datei für weitere Details.
+### Beitragende
+- **Mehmet Ozdag:**
+
