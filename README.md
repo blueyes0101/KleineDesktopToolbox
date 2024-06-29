@@ -70,7 +70,7 @@ Repository klonen:
 - mvn javafx:run
 
 
-### Zeitplan und Meilensteine
+## Zeitplan und Meilensteine
 
 - **Milestone a: Zeit-Planung (17.05.2024 - 18.05.2024)**: 
 - **Beschreibung:** Erstellung eines allgemeinen Zeitplans für das Projekt.
