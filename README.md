@@ -1,6 +1,6 @@
 # Kleine Desktop-Toolbox-Anwendung
 
-Diese Projekt wurde im Rahmen des Kurses "Objektorientiertes Programmieren 1" entwickelt. Es bietet eine kompakte Sammlung von nützlichen Desktop-Anwendungen, die im täglichen Gebrauch hilfreich sind.
+Dieses Projekt wurde im Rahmen des Kurses "Objektorientiertes Programmieren 1" entwickelt. Es bietet eine kompakte Sammlung von nützlichen Desktop-Anwendungen, die im täglichen Gebrauch hilfreich sind.
 
 ## Inhaltsverzeichnis
 
@@ -87,3 +87,36 @@ justtest1/
 │   │   │   ├── dark-theme.css
 │   │   │   └── main.css
 │   └── module-info.java
+
+## Installation und Ausführung
+
+1. **Repository klonen:**
+   ```bash
+   git clone https://github.com/blueyes0101/KleineDesktopToolbox
+
+
+
+   **Zeitplan und Meilensteine**
+Milestone a: Zeit-Planung (17.05.2024 - 18.05.2024)
+Beschreibung: Erstellung eines allgemeinen Zeitplans für das Projekt.
+
+Milestone b: Projekt-Setup, Test-Klasse, Git-Setup (19.05.2024 - 21.05.2024)
+Beschreibung: Einrichtung der Projektstruktur und Erstellung eines GitHub-Repositories.
+
+Milestone c: PassSave Modul (22.05.2024 - 25.05.2024)
+Beschreibung: Entwicklung des Moduls zum Speichern von Benutzernamen und Passwörtern.
+
+Milestone d: NoteSave Modul (26.05.2024 - 30.05.2024)
+Beschreibung: Entwicklung des Moduls zum schnellen Notieren und Verwenden als Todo-Liste.
+
+Milestone e: Calculator Modul (31.05.2024 - 03.06.2024)
+Beschreibung: Entwicklung eines einfachen Taschenrechnermoduls.
+
+Milestone f: Alarm Modul (04.06.2024 - 06.06.2024)
+Beschreibung: Entwicklung eines Alarmmoduls, das zu bestimmten Zeiten warnt und einen Countdown hat.
+
+Milestone g: Integration und Test (07.06.2024 - 09.06.2024)
+Beschreibung: Integration aller Module und Durchführung eines allgemeinen Tests des Projekts.
+
+Milestone h: Dokumentation und Abschluss (10.06.2024 - 11.06.2024)
+Beschreibung: Dokumentation und Einreichung des Projekts.
